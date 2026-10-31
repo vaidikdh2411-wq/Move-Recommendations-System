@@ -10,3 +10,6 @@ A system that recommends movies based on user preferences.
 1. Clone the repo
 2. Install requirements
 3. Run the app
+
+## Author
+vaidikdh2411-wq
