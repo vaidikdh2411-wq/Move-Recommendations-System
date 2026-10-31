@@ -1,0 +1,8 @@
+Column,Data_Type,Missing,Unique
+movieId,int64,0,62423
+title,string,0,62325
+genres,string,0,1639
+release_year,float64,412,135
+title_length,Int64,0,123
+title_word_count,int64,0,24
+genre_count,int64,0,9

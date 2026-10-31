@@ -1,0 +1,45 @@
+{
+  "dataset": "movies.csv",
+  "before_cleaning": {
+    "rows": 62423,
+    "columns": 3,
+    "missing_total": 0,
+    "missing_by_column": {
+      "movieId": 0,
+      "title": 0,
+      "genres": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_movie_ids": 0,
+    "unique_movie_ids": 62423,
+    "unique_titles": 62325,
+    "unique_genre_strings": 1639,
+    "memory_mb": 9.73
+  },
+  "after_cleaning": {
+    "rows": 62409,
+    "columns": 3,
+    "missing_total": 0,
+    "missing_by_column": {
+      "movieId": 0,
+      "title": 0,
+      "genres": 0
+    },
+    "duplicate_rows": 0,
+    "duplicate_movie_ids": 0,
+    "unique_movie_ids": 62409,
+    "unique_titles": 62325,
+    "unique_genre_strings": 1639,
+    "memory_mb": 9.67
+  },
+  "cleaning_steps": [
+    "Required-column validation",
+    "Numeric movieId conversion",
+    "Missing/empty row removal",
+    "Whitespace normalization",
+    "Genre separator normalization",
+    "Release-year extraction",
+    "Duplicate movieId removal",
+    "Duplicate title+genre removal"
+  ]
+}

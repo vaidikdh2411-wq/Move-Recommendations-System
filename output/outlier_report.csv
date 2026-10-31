@@ -1,0 +1,5 @@
+Column,Q1,Q3,IQR,Lower_Limit,Upper_Limit,Outlier_Count
+release_year,1976.0,2012.0,36.0,1922.0,2066.0,595
+title_length,18.0,29.0,11.0,1.5,45.5,4034
+title_word_count,2.0,4.0,2.0,-1.0,7.0,2795
+genre_count,1.0,2.0,1.0,-0.5,3.5,3614

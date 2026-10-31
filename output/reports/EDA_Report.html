@@ -1,0 +1,114 @@
+
+<html>
+<head>
+<title>Movie Recommendation System - EDA Report</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+img {
+    max-width: 800px;
+    margin: 15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>Movie Recommendation System</h1>
+
+<h2>1. Dataset Understanding</h2>
+<p>
+The dataset contains movie information with movie ID, movie title
+and movie genres.
+</p>
+
+<h2>2. Data Cleaning</h2>
+<ul>
+<li>Checked missing values.</li>
+<li>Checked duplicate rows.</li>
+<li>Checked duplicate movie IDs.</li>
+<li>Cleaned text columns.</li>
+<li>Extracted release year.</li>
+<li>Created title length.</li>
+<li>Created title word count.</li>
+<li>Created genre count.</li>
+</ul>
+
+<h2>3. Numerical Data</h2>
+<p>
+Numerical variables used for EDA include movieId, release_year,
+title_length, title_word_count and genre_count.
+</p>
+
+<h2>4. Categorical/Text Data</h2>
+<p>
+Title and genres are text/categorical information.
+Genres can contain multiple categories for one movie.
+</p>
+
+<h2>5. Independent and Dependent Variables</h2>
+<p>
+At this Unit 1 and Unit 2 EDA stage, there is no machine-learning
+dependent/target variable. The dataset is being studied and prepared
+before model building.
+</p>
+
+<p>
+Possible analysis variables are movieId, release_year, title_length,
+title_word_count and genre_count.
+</p>
+
+<h2>6. Univariate Analysis</h2>
+<p>
+Histogram, box plot and genre count analysis were performed.
+</p>
+
+<h2>7. Bivariate Analysis</h2>
+<p>
+Release year and title length were compared using a scatter plot.
+</p>
+
+<h2>8. Multivariate Analysis</h2>
+<p>
+A correlation matrix was created for numerical variables.
+</p>
+
+<h2>9. Central Tendency and Statistics</h2>
+<p>
+Mean, median, mode, variance, standard deviation, range, skewness
+and kurtosis were calculated.
+</p>
+
+<h2>10. Output Graphs</h2>
+
+<img src="../after_cleaning/01_histogram.png">
+<img src="../after_cleaning/02_boxplot.png">
+<img src="../after_cleaning/03_genre_bar_chart.png">
+<img src="../after_cleaning/04_genre_pie_chart.png">
+<img src="../after_cleaning/05_movies_by_year.png">
+<img src="../after_cleaning/06_scatter_plot.png">
+<img src="../after_cleaning/07_correlation_matrix.png">
+
+<h2>11. Automated EDA</h2>
+<p>
+A separate Automated_EDA_Report.html file is generated using
+ydata-profiling.
+</p>
+
+</body>
+</html>

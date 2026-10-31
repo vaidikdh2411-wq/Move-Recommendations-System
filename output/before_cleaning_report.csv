@@ -1,0 +1,4 @@
+Column,Data_Type,Missing,Unique
+movieId,int64,0,62423
+title,object,0,62325
+genres,object,0,1639

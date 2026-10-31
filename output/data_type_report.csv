@@ -1,0 +1,8 @@
+Column,Type
+movieId,Numerical
+title,Categorical/Text
+genres,Categorical/Text
+release_year,Numerical
+title_length,Numerical
+title_word_count,Numerical
+genre_count,Numerical
